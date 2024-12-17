@@ -157,6 +157,7 @@ ats_analysis_prompt = PromptTemplate.from_template(
        **Projects**  
        **[Project Name]**  
        - [Tools used + measurable outcome.]
+       - [Deployed Links]
        
        **Education**  
        [Degree] | [University] | [Year] | [GPA/Relevant Achievement]
@@ -172,8 +173,6 @@ ats_analysis_prompt = PromptTemplate.from_template(
     - **Over 2 Years Experience**: Focus on measurable results, leadership, and contributions to business goals.
     """
 )
-
-
 
 
 # Health Check
