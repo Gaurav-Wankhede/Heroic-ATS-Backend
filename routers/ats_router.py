@@ -73,8 +73,8 @@ ats_analysis_prompt = PromptTemplate.from_template(
     ---
 
     ### Output
-    1. ATS Score: [Score/100]
-    2. Specific Updates:
+    1. **ATS Score:** [Score/100]
+    2. **Specific Updates:**
        - Professional Summary: [Updated summary text]
        - Skills Section: 
            - Exact Category: [Exact Category from JD]
@@ -83,7 +83,7 @@ ats_analysis_prompt = PromptTemplate.from_template(
        - Experience Section: [Updated experience bullet points with measurable results]
        - Projects Section: [Refined project descriptions]
        - Education Section: [Updated education details]
-    3. Email to Recruiter:
+    3. **Email to Recruiter:**
        Subject: [Job Title] Application - [Your Name]
 
        Dear [Recruiter Name],
@@ -100,14 +100,14 @@ ats_analysis_prompt = PromptTemplate.from_template(
        [Your Full Name]  
        [Contact Information]
 
-    4. WhatsApp Message:
+    4. **WhatsApp Message:**
        Hi [Recruiter Name],
 
        I’m [Your Name], excited about the [Job Title] role at [Company Name]. My background in [Key Skills/Tools] and achievements in [Relevant Experience/Project] align well with the position. I’d love to discuss how I can contribute to the team.
 
        Looking forward to your response.
 
-    5. Updated Resume:
+    5. **Updated Resume:**
        [Your Name]  
        [Location] | [Phone Number] | [Email] | Portfolio | LinkedIn | GitHub
 
