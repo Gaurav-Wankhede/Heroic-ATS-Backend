@@ -10,7 +10,7 @@ origins = [
     "http://localhost:3000",
     "localhost:3000",
     "https://heroic-ats-frontend.vercel.app/",
-    
+    "https://heroic-ats-platform-738207385737.us-central1.run.app/"
 ]
 
 app.add_middleware(
