@@ -89,7 +89,6 @@ ats_analysis_prompt = PromptTemplate.from_template(
         - Fonts: Arial, Calibri, or Times New Roman.
         - No tables, images, or graphics.
         - Bullet points for readability.
-      - Verify that every section fully aligns with ATS requirements for a **100% score**.
 
     ---
 
