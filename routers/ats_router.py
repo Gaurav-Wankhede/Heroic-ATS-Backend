@@ -109,12 +109,17 @@ ats_analysis_prompt = PromptTemplate.from_template(
         -   **Candidate Name:** [Candidate Name]
         -   **Headline/Professional Title:** [One concise and impactful headline that aligns with the target role and highlights key qualifications.]
         -   **Contact Information:** [Formatted Contact Information (Name, Phone, Email, LinkedIn, optional: Portfolio/GitHub)]
-        -   **Professional Summary:** [Suggested rewrite, aligned with Optimization Guidelines.]
-        -   **Key Skills:** [A concise, ATS-friendly list of the *most important* matched and relevant skills, prioritizing those mentioned most frequently or prominently in the job description. Combine matched and relevant skills here, format as comma-separated or bulleted list.]
-        -   **Experience:** [Updated experience section with rewritten bullet points, aligned with Optimization Guidelines. Provide explanations for significant changes.]
-        -   **Projects:** [Updated project details with links and quantifiable results where applicable, aligned with Optimization Guidelines.]
-        -   **Education:** [Updated education information, aligned with Optimization Guidelines.]
-        -   **Certifications:** [List of relevant certifications, licenses, or awards, aligned with Optimization Guidelines.]
+        -   **Professional Summary:** [Suggested rewrite, aligned with Optimization Guidelines. Ensure the summary accurately reflects the candidate's experience and skills; do not fabricate information.]
+        -   **Key Skills:** [A concise, ATS-friendly list of the *most important* matched and relevant skills, prioritizing those mentioned most frequently or prominently in the job description. Combine matched and relevant skills here, format as comma-separated or bulleted list. *Only include skills that the candidate demonstrably possesses; do not add skills they do not have.*]
+        -   **Experience:** [Updated experience section with rewritten bullet points, aligned with Optimization Guidelines.
+            -   Focus on enhancing existing content and presenting it more effectively; *do not invent or exaggerate experience*.
+            -   Provide explanations for significant changes, clarifying how the rewrites improve impact, brevity, or ATS compatibility.
+            -   Ensure that the dates of employment are consistent and logical.
+            -   If the provided experience is insufficient for the target role, suggest ways the candidate could *gain* relevant experience (e.g., projects, certifications, volunteering) rather than fabricating past experience.
+            ]
+        -   **Projects:** [Updated project details with links and quantifiable results where applicable, aligned with Optimization Guidelines. Ensure that project details are accurate and reflect the candidate's actual contributions.]
+        -   **Education:** [Updated education information, aligned with Optimization Guidelines. Ensure the information is accurate and verifiable.]
+        -   **Certifications:** [List of relevant certifications, licenses, or awards, aligned with Optimization Guidelines. Ensure listed certifications are valid and earned by the candidate.]
 
     #### Communication Templates:
 
